@@ -38,7 +38,7 @@ def get_infer_gpuid():
 
 
 class RunConfig:
-    def __init(self,
+    def __init__(self,
                run_devices="cpu",
                ir_optim=False,
                enable_tensorrt=False,
